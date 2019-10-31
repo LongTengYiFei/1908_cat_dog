@@ -5,7 +5,7 @@ from tkinter import filedialog
 # 怎么使用这个脚本呢，启动它就行了，会弹出来一个文件选择器。
 
 # 这里的模型路径，我们采用了硬编码模式。其实手动选择也可以。
-model_cat_dog = models.load_model('D:\\111_PythonProjects\\1908\\cats_and_dogs_sort.h5')
+model_cat_dog = models.load_model('.\\cats_and_dogs_sort.h5')
 
 import numpy as np
 from PIL import Image
